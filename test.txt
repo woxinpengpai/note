@@ -1,0 +1,9 @@
+touch test.txt
+vi test.txt
+git status
+git log
+git add test.txt 将文件添加到临时缓冲区
+git commit -m "提交信息"： 提交到本地仓库（这里的提交信息是commit text file）
+git status git log 查看状态和日志
+git push origin main 提交到github(这里main是分支名)
+浏览器刷新GitHub页面
